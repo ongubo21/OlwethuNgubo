@@ -10,7 +10,7 @@
   }
   .Subheading{
 
-  color: rgb(16, 233, 240);
+  color: rgb(4, 56, 241);
   font-size: 45;
   padding-left: 150px;
   padding-right: 0px;
@@ -23,7 +23,7 @@
     padding-right: 150px;
     border-bottom: 120px;
     border-top: 120px;
-    background-color:rgba(168, 218, 210, .5);
+    background-color:rgba(4, 56, 241, .5);
 
   }
   .all{
@@ -33,13 +33,14 @@
     border-bottom: 120px;
     border-top: 120px;
     font-size:26;
-    background-color: rgba(168, 218, 210, .5);
+    background-color: rgba(4, 56, 241, .5);
+
 
   }
   .heading{
   margin: 0 auto;
   text-align: center;
-  color: rgb(16, 233, 240);
+  color: #eee;
   padding-left: 150px;
   padding-right: 150px;
   background-image:url("https://i0.wp.com/bluewallpaperbackground.weebly.com/uploads/1/9/7/6/19768865/2324599_orig.jpg?resize=640%2C400");
@@ -75,6 +76,30 @@ font-family: inherit;
 background-color:#eee
 background-image: no-repeat;
 background-size: contain;
+margin:0;
+padding:0;
+}
+
+.photos{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-content: stretch;
+  width: 80%;
+  min-height: 300px;
+  background-color: ;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 10px;
+}
+.column {
+  padding: 10px 30px;
+  background-color: rgba(2, 45, 227, .4);
+  width: 30%;
+  min-height: 100px;
+  margin: 5px;
+  color:white;
 }
   </style>
 </head>
@@ -86,11 +111,11 @@ background-size: contain;
 </div>
 <div class=Everything>
 <div class=Subheading>
-  <h2 > <strong>About</strong> </h2>
+  <h2 > <strong><em>About</em></strong> </h2>
 </div>
-  <div class="deco">
 
-  <p style= font-size:26>   My name is Olwethu Ngubo, I am from Durban, South Africa. I am fifteen years old and
+  <div class="deco">
+ <p style= font-size:26>   My name is Olwethu Ngubo, I am from Durban, South Africa. I am fifteen years old and
     I go to <a href="https://www.andover.edu">
     Phillips Academy Andover</a>. This is a website all about me for
     <a href="https://en.wikipedia.org/wiki/Computer_science" >computer sciences</a>. I am very excited to be at
@@ -101,6 +126,7 @@ but I like computer sciences the most because I love being able to create things
 front of my eyes. This class is confusing but once you get the hang of it, you will have lots of fun.
  </p>
 </div>
+
 <h4 class="Subheading">My Classes at Andover:</h4>
 <div class="deco">
 <ol>
@@ -109,9 +135,8 @@ front of my eyes. This class is confusing but once you get the hang of it, you w
 <li>Art</li>
 </ol>
 </div>
+
 <h3 class="Subheading">Achievements</h3>
-
-
 <div class="all">
 <ul >
 <li> Getting accepted into the<a href="https://www.andover.edu/summer"> summer session</a> at Andover.
@@ -130,7 +155,7 @@ our country so I am glad I set up the first stepping stone for the rest of my fa
 </ul>
 </div>
 
-<h5 class="Subheading">Ethical Reflections</h4>
+<h5 class="Subheading">Ethical Reflections</h5>
   <div class="deco">
   <ol>
   <li><a href="Machine_bias.html">Machine Bias</a></li>
@@ -143,7 +168,23 @@ our country so I am glad I set up the first stepping stone for the rest of my fa
 </div>
 <ul class="Subheading">My Projects</ul>
 <li><a href="Reminder2App.html" >My App</a>
-<h5 class="Subheading">Other</h5>
-<p><em>Other<em></p>
+<h6 class="Subheading">My Family </h6>
+<div class="photos">
+  <div class="column">
+  <img src="NomaAndI.jpg" width="90%" height="58%"  align="left">
+  <p>My Bestfriend</p>
+  </div>
+  <div class="column">
+    <p>All my Freinds</p>
+    <img src="CutePic.png" width="100%" height="40%" ><br></br>
+    <img src="SchoolUniform.png" width="100%" height="40%">
+  </div>
+  <div class="column">
+    <img src="MyMomAndI.jpg" width="90%"  align="left">
+    <p>My mother</p>
+  </div>
+</div>
+
+
 </body>
 </html>
