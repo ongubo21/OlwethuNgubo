@@ -1,0 +1,131 @@
+@font-face{
+  font-family: "Ladybirds";
+  src: url("Ladybirds.ttf");
+}
+
+.css-picker {
+  display: flex;
+  flex-flow: nowrap column;
+  justify-content: space-around;
+  align-items: stretch;
+  min-height: 15em;
+  width: 20%;
+  margin-left: 100px;
+  border: 1px solid rgb(62, 10, 156);
+  border-radius: 4px;
+}
+
+
+
+.css-picker a {
+  min-height: 3em;
+  line-height: 3em;
+  vertical-align: middle;
+  text-decoration: none;
+  background-color: rgb(53, 30, 94);
+  color: white;
+  border-radius: 4px;
+  transition: background-color 0.2s ease-in-out;
+  margin: 10px 10px;
+  text-align: center;
+  box-shadow: -2px
+}
+
+.css-picker a:hover {
+  background-color: rgb(62, 10, 156);
+}
+
+.css-picker a:active {
+  transform: translate(0, 2px);
+}
+
+
+
+/* Added during project 3 creation */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+}
+html{
+  height:100%;
+  /*background-color: rgb(12, 70, 242);*/
+  background-repeat: no-repeat;
+}
+* {
+  box-sizing: inherit;
+}
+
+#container {
+width: 75%;
+  margin: 0 auto;
+
+}
+
+.section {
+  color: #eee;
+ border-radius: 3px;
+ border: 5px dashed #eee;
+  padding-right: 60px;
+  padding-left: 30px;
+  margin: 0 auto;
+  line-height: 1.6em;
+  line-height: 50px;
+
+/*.explanation{
+  /*padding-top: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  background-color: #eee;
+  width:70%;
+  margin: 0 auto;*/
+
+}
+.subheading{
+  color:#eee;
+  font-family: monospace;
+  font-size: 30px;
+}
+
+.header { background-image: url("https://raw.githubusercontent.com/ongubo21/OlwethuNgubo/master/Phillips_Academy_Andover.jpg");
+
+background-size: cover;
+background-repeat: no-repeat;
+padding:120px;
+
+}
+.heading{
+font-family: "Ladybirds";
+  color:rgb(0, 26, 255);
+  font-size: 80px;
+
+}
+
+a {
+  color: rgb(63, 29, 139);
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: rgb(48, 140, 126);
+}
+
+.outer-list>li {
+  margin-bottom: 20px;
+}
+
+/* Added for index.html */
+/* dt {
+    float: left;
+    width: 30%;
+    text-align: right;
+    padding: .25em;
+    clear: left;
+}
+dd {
+    float: left;
+    width: 60%;
+    padding: .25em 0;
+}
+dl:after {content:"";display:table;clear:both;} */
